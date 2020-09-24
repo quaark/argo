@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/argoproj/pkg/errors"
-	argotime "github.com/argoproj/pkg/time"
+	"github.com/quaark/pkg/errors"
+	argotime "github.com/quaark/pkg/time"
 	"github.com/spf13/cobra"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 

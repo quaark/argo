@@ -5,7 +5,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/argoproj/pkg/stats"
+	"github.com/quaark/pkg/stats"
 	log "github.com/sirupsen/logrus"
 	"github.com/skratchdot/open-golang/open"
 	"github.com/spf13/cobra"

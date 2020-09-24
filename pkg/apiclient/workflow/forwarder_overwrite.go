@@ -1,7 +1,7 @@
 package workflow
 
 import (
-	"github.com/argoproj/pkg/grpc/http"
+	"github.com/quaark/pkg/grpc/http"
 )
 
 func init() {

@@ -5,7 +5,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/argoproj/pkg/file"
+	"github.com/quaark/pkg/file"
 	"gopkg.in/jcmturner/gokrb5.v5/credentials"
 	"gopkg.in/jcmturner/gokrb5.v5/keytab"
 

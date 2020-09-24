@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/argoproj/pkg/humanize"
+	"github.com/quaark/pkg/humanize"
 	"k8s.io/client-go/kubernetes"
 
 	log "github.com/sirupsen/logrus"

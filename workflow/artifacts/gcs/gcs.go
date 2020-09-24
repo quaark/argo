@@ -17,7 +17,7 @@ import (
 	"google.golang.org/api/option"
 	"k8s.io/apimachinery/pkg/util/wait"
 
-	"github.com/argoproj/pkg/file"
+	"github.com/quaark/pkg/file"
 
 	wfv1 "github.com/argoproj/argo/pkg/apis/workflow/v1alpha1"
 )

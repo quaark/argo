@@ -8,9 +8,9 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/argoproj/pkg/cli"
-	kubecli "github.com/argoproj/pkg/kube/cli"
-	"github.com/argoproj/pkg/stats"
+	"github.com/quaark/pkg/cli"
+	kubecli "github.com/quaark/pkg/kube/cli"
+	"github.com/quaark/pkg/stats"
 	"github.com/spf13/cobra"
 	"k8s.io/client-go/kubernetes"
 	_ "k8s.io/client-go/plugin/pkg/client/auth/azure"

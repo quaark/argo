@@ -6,7 +6,7 @@ import (
 	"os"
 	"sync"
 
-	"github.com/argoproj/pkg/errors"
+	"github.com/quaark/pkg/errors"
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 	apierr "k8s.io/apimachinery/pkg/api/errors"

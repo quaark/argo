@@ -14,8 +14,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/argoproj/pkg/humanize"
-	"github.com/argoproj/pkg/strftime"
+	"github.com/quaark/pkg/humanize"
+	"github.com/quaark/pkg/strftime"
 	jsonpatch "github.com/evanphx/json-patch"
 	log "github.com/sirupsen/logrus"
 	"github.com/valyala/fasttemplate"
@@ -43,7 +43,7 @@ import (
 	"github.com/argoproj/argo/workflow/templateresolution"
 	"github.com/argoproj/argo/workflow/validate"
 
-	argokubeerr "github.com/argoproj/pkg/kube/errors"
+	argokubeerr "github.com/quaark/pkg/kube/errors"
 )
 
 // wfOperationCtx is the context for evaluation and operation of a single workflow

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/argoproj/pkg/errors"
+	"github.com/quaark/pkg/errors"
 
 	"github.com/spf13/cobra"
 

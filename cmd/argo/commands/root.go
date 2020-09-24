@@ -3,7 +3,7 @@ package commands
 import (
 	"fmt"
 
-	"github.com/argoproj/pkg/cli"
+	"github.com/quaark/pkg/cli"
 	"github.com/spf13/cobra"
 
 	"github.com/argoproj/argo/cmd/argo/commands/auth"

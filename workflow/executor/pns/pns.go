@@ -11,7 +11,7 @@ import (
 	"syscall"
 	"time"
 
-	executil "github.com/argoproj/pkg/exec"
+	executil "github.com/quaark/pkg/exec"
 	gops "github.com/mitchellh/go-ps"
 	log "github.com/sirupsen/logrus"
 	v1 "k8s.io/api/core/v1"

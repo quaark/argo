@@ -3,7 +3,7 @@ package archive
 import (
 	"fmt"
 
-	"github.com/argoproj/pkg/errors"
+	"github.com/quaark/pkg/errors"
 	"github.com/spf13/cobra"
 
 	client "github.com/argoproj/argo/cmd/argo/commands/client"

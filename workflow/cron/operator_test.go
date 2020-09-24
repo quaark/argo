@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/argoproj/pkg/humanize"
+	"github.com/quaark/pkg/humanize"
 	"github.com/ghodss/yaml"
 	"github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/assert"

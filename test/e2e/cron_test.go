@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/argoproj/pkg/humanize"
+	"github.com/quaark/pkg/humanize"
 	log "github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/suite"

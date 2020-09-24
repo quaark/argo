@@ -8,7 +8,7 @@ import (
 	"github.com/spf13/cobra"
 	"sigs.k8s.io/yaml"
 
-	"github.com/argoproj/pkg/humanize"
+	"github.com/quaark/pkg/humanize"
 
 	"github.com/argoproj/argo/cmd/argo/commands/client"
 	workflowtemplatepkg "github.com/argoproj/argo/pkg/apiclient/workflowtemplate"

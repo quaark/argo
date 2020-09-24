@@ -6,8 +6,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/argoproj/pkg/errors"
-	"github.com/argoproj/pkg/humanize"
+	"github.com/quaark/pkg/errors"
+	"github.com/quaark/pkg/humanize"
 	"github.com/spf13/cobra"
 	"sigs.k8s.io/yaml"
 

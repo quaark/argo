@@ -19,7 +19,7 @@ import (
 	"syscall"
 	"time"
 
-	argofile "github.com/argoproj/pkg/file"
+	argofile "github.com/quaark/pkg/file"
 	log "github.com/sirupsen/logrus"
 	apiv1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

@@ -4,7 +4,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/argoproj/pkg/json"
+	"github.com/quaark/pkg/json"
 	"github.com/spf13/cobra"
 
 	"github.com/argoproj/argo/cmd/argo/commands/client"

@@ -9,8 +9,8 @@ import (
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/tools/clientcmd"
 
-	"github.com/argoproj/pkg/cli"
-	kubecli "github.com/argoproj/pkg/kube/cli"
+	"github.com/quaark/pkg/cli"
+	kubecli "github.com/quaark/pkg/kube/cli"
 
 	"github.com/argoproj/argo"
 	"github.com/argoproj/argo/util"
