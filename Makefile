@@ -139,7 +139,7 @@ $(HOME)/go/bin/staticfiles:
 
 server/static/files.go: $(HOME)/go/bin/staticfiles ui/dist/app
 	# Pack UI into a Go file.
-	staticfiles -o server/static/files.go ui/dist/app
+	$(HOME)/go/bin/staticfiles -o server/static/files.go ui/dist/app
 
 dist/argo: server/static/files.go $(CLI_PKGS)
 	go build -v -i -ldflags '${LDFLAGS}' -o dist/argo ./cmd/argo
