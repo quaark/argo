@@ -53,7 +53,7 @@ require (
 	github.com/prometheus/client_model v0.1.0
 	github.com/prometheus/common v0.7.0 // indirect
 	github.com/prometheus/procfs v0.0.8 // indirect
-	github.com/quaark/pkg v0.0.0-20200924085214-7399a5734afc
+	github.com/quaark/pkg v0.0.0-20210126124627-72d3ff28dd59
 	github.com/robfig/cron v1.2.0
 	github.com/robfig/cron/v3 v3.0.1
 	github.com/satori/go.uuid v1.2.0 // indirect
